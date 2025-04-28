@@ -6,8 +6,7 @@ hide_streamlit_style = """
     #MainMenu {visibility: hidden;}
     header {visibility: hidden;}
     footer {visibility: hidden;}
-    section[data-testid="stSidebar"] {visibility: hidden;}  
-    .st-emotion-cache-zq5wmm {display: none;} 
+    div[data-testid="stDecoration"] {display: none;}
     </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
