@@ -1,11 +1,11 @@
 import streamlit as st
 
-# Hide Streamlit Main Menu, Footer, and Header
+# Hide MainMenu, Header (with GitHub icon), Footer
 hide_streamlit_style = """
     <style>
     #MainMenu {visibility: hidden;}
-    #footer {visibility: hidden;}
     #header {visibility: hidden;}
+    #footer {visibility: hidden;}
     </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
