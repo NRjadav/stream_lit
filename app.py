@@ -6,8 +6,8 @@ hide_streamlit_style = """
     #MainMenu {visibility: hidden;}
     header {visibility: hidden;}
     footer {visibility: hidden;}
-    section[data-testid="stSidebar"] {visibility: hidden;}  /* (optional: sidebar if needed) */
-    .st-emotion-cache-zq5wmm {display: none;} /* hide manage app button */
+    section[data-testid="stSidebar"] {visibility: hidden;}  
+    .st-emotion-cache-zq5wmm {display: none;} 
     </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
