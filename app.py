@@ -1,6 +1,6 @@
 import streamlit as st
 
-Hide Streamlit Main Menu, Footer, and Header
+# Hide Streamlit Main Menu, Footer, and Header
 hide_streamlit_style = """
     <style>
     #MainMenu {visibility: hidden;}
