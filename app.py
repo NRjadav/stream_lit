@@ -3,9 +3,9 @@ import streamlit as st
 # Hide Streamlit Main Menu, Footer, and Header
 hide_streamlit_style = """
     <style>
-    MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
+    #MainMenu {visibility: hidden;}
+    #footer {visibility: hidden;}
+    #header {visibility: hidden;}
     </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
