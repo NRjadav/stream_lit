@@ -7,7 +7,7 @@ hide_streamlit_style = """
     header {visibility: hidden;}
     footer {visibility: hidden;}
     div[data-testid="stDecoration"] {display: none;}
-    ._terminalButton_rix23_138 {display: none;}
+    [class^="_terminalButton_"] {display: none !important;}
     </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
